@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.heading {
+    margin-bottom: 25px;
+    font-family:'Gill Sans MT';
+}
+
+.btn {
+    height: 60px;
+    width: 60px;
+    margin: 6px;
+}
+
+.screen {
+    width: 295px;
+    height: 60px;
+    border: 2px solid blue;
+    margin: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.current {
+    font-size: 25px;
+}
+
+.copyright {
+    margin-top: 50px;
+    margin-right: 5px;
+    font-family: 'Lucida Sans Regular';
+    font-weight: 1000;
+}
